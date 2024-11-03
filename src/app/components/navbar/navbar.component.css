@@ -1,0 +1,7 @@
+.sectionbg{
+    background-image: url('../../../assets/pexels-alena-koval-233944-886521.jpg');
+    background-size:cover; /* Ensures the image covers the entire div */
+    background-position: center;
+    background-repeat:no-repeat;
+    height: 600px;
+}

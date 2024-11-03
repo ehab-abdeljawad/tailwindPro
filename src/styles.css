@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+/* styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    .newd{
+        background-color: aqua;
+        color: blue;
+        width: 200px;
+        height: 200px;
+
+
+    }
+}
+
+
+.btn {
+    @apply bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-700;
+}
+
+.mydesign {
+    @apply bg-slate-500 p-9 text-red-500  flex  justify-center
+       
+       
+   }
+
+
+  
