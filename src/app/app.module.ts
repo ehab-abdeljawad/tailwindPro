@@ -9,6 +9,11 @@ import { MaincontentComponent } from './components/maincontent/maincontent.compo
 import { ArticalComponent } from './components/artical/artical.component';
 import { CommentsComponent } from './components/comments/comments.component';
 import { ConfigrationComponent } from './components/configration/configration.component';
+import { LayoutComponent } from './components/layout/layout.component';
+import { BorderComponent } from './components/border/border.component';
+import { AnimationsComponent } from './components/animations/animations.component';
+import { DesignStyleComponent } from './components/design-style/design-style.component';
+import { DarkmodeComponent } from './components/darkmode/darkmode.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +23,12 @@ import { ConfigrationComponent } from './components/configration/configration.co
     MaincontentComponent,
     ArticalComponent,
     CommentsComponent,
-    ConfigrationComponent
+    ConfigrationComponent,
+    LayoutComponent,
+    BorderComponent,
+    AnimationsComponent,
+    DesignStyleComponent,
+    DarkmodeComponent
   ],
   imports: [
     BrowserModule,
